@@ -17,7 +17,7 @@
 
 import {EcCommutativeCipher, HashType} from './emscripten/ec_commutative_cipher';
 import {EcCommutativeCipherImpl} from './emscripten/ec_commutative_cipher_impl';
-import {createHash} from 'node:crypto';
+import {createHash} from 'crypto';
 
 import {CryptoHelper} from './utils/crypto_helper';
 import {PasswordCheckResult} from './password_check_result';
